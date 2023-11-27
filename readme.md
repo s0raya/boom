@@ -1,7 +1,7 @@
 # Bomba Game
 
 ## Descripción
-El juego genera un número aleatorio del 1 al 3 y presenta una cuenta atrás de 5 segundos. Después de la cuenta atrás, compara el número aleatorio con el número introducido por el usuario. Si coinciden, se muestra un mensaje de "¡Has salvado el mundo!", de lo contrario, se muestra "La bomba ha estallado". En ambos casos tendrá que salir el núemro elegido y junto con el número correcto (el generado aleatoriamente). No se sabrá que número es hasta que pasen 5 segundos.
+El juego genera un número aleatorio del 1 al 3 y presenta una cuenta atrás de 5 segundos. Después de la cuenta atrás, compara el número aleatorio con el número introducido por el usuario. Si coinciden, se muestra un mensaje de "¡Has salvado el mundo!", de lo contrario, se muestra "La bomba ha estallado". En ambos casos tendrá que salir el número elegido y junto con el número correcto (el generado aleatoriamente). No se sabrá que número es hasta que pasen 5 segundos.
 
 ## Instrucciones
 
