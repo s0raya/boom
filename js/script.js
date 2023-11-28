@@ -66,13 +66,29 @@ restart.addEventListener('click', () => {
 
 /******************* con promesa ***************************/
 
-function createInterval() {
+/*function createInterval() {
     const myPromise = new Promise(() => {
         myInterval = setInterval(myTimer, 1000);
     })
     .then(() => {
         checkNumber();
     });
-}
+}*/
 
+
+/************** con setTimeOut ****************************/
+function createInterval() {
+    new Promise((resolve) => {
+        setTimeout(() => {
+            resolve(); 
+        }, 1000);
+    }).then(() => {
+        if (counter === 0) {
+            checkNumber();
+        } else {
+            myTimer();
+            createInterval();
+        }
+    });
+}
 
